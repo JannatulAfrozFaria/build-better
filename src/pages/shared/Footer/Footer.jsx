@@ -20,6 +20,9 @@ const Footer = () => {
             Build Better 
             <br />
             Providing reliable tech since 2024
+
+            <br />
+            buildbetter2024@gmail.com
           </p>
         </aside>
         <nav>
