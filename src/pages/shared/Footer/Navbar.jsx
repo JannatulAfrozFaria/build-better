@@ -36,7 +36,20 @@ const Navbar = () => {
               </details>
             </li>
             <li>
-              <a>Item 3</a>
+              <details>
+                <summary>Projects</summary>
+                <ul className="p-2">
+                  <li>
+                    <a>Completed Projects</a>
+                  </li>
+                  <li>
+                    <a>Ongoing Projects</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <a>Notice Board</a>
             </li>
     </>
   );
