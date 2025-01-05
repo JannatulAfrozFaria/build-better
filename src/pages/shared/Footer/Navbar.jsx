@@ -85,7 +85,7 @@ const Navbar = () => {
             </ul>
             
           </div>
-          <a className="btn btn-ghost text-xl">Build Better</a>
+          <a className="btn btn-ghost text-xl"> <img className="w-48" src="https://i.postimg.cc/WbxSxQfJ/bb-logo.png" alt="Logo" /> </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-base md:text-lg">
