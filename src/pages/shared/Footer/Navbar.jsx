@@ -4,17 +4,17 @@ const Navbar = () => {
   const navOptions = (
     <>
       <li>
-              <a>Item 1</a>
+              <a>Home</a>
             </li>
             <li>
               <details>
-                <summary>Parent</summary>
+                <summary>About</summary>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <a>Company Overview</a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>Objectives and commitment</a>
                   </li>
                 </ul>
               </details>
