@@ -20,6 +20,22 @@ const Navbar = () => {
               </details>
             </li>
             <li>
+              <details>
+                <summary>Services & Solutions</summary>
+                <ul className="p-2">
+                  <li>
+                    <a>Our Services</a>
+                  </li>
+                  <li>
+                    <a>Our Strengths</a>
+                  </li>
+                  <li>
+                    <a>Environmental Health and Safety</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
               <a>Item 3</a>
             </li>
     </>
