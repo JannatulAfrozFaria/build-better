@@ -3,9 +3,8 @@ import Footer from '../shared/Footer/Footer';
 
 const Home = () => {
     return (
-        <div>
+        <div className='h-[900px]'>
             <h1>This is home</h1>
-            <Footer></Footer>
         </div>
     );
 };

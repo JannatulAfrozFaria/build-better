@@ -22,7 +22,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary>Services & Solutions</summary>
-                <ul className="p-2">
+                <ul className="p-2 bg-green-100">
                   <li>
                     <a>Our Services</a>
                   </li>
@@ -51,11 +51,14 @@ const Navbar = () => {
             <li>
               <a>Notice Board</a>
             </li>
+            {/* <li>
+              <a>Contact Us</a>
+            </li> */}
     </>
   );
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 w-5/6 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -85,12 +88,12 @@ const Navbar = () => {
           <a className="btn btn-ghost text-xl">Build Better</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-base md:text-lg">
             {navOptions}
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn">Contact Us</a>
         </div>
       </div>
     </>
