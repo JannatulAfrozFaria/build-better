@@ -9,7 +9,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary>About</summary>
-                <ul className="p-2">
+                <ul className="p-2 bg-green-100">
                   <li>
                     <a>Company Overview</a>
                   </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary>Projects</summary>
-                <ul className="p-2">
+                <ul className="p-2 bg-green-100">
                   <li>
                     <a>Completed Projects</a>
                   </li>
