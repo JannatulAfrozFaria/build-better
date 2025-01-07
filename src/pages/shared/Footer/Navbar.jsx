@@ -93,7 +93,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact Us</a>
+          <a className="btn btn-outline">Contact Us</a>
         </div>
       </div>
     </>
