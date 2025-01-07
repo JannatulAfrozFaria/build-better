@@ -49,7 +49,7 @@ const Navbar = () => {
               </details>
             </li>
             <li>
-              <a>Notice Board</a>
+              <a>Blog</a>
             </li>
             {/* <li>
               <a>Contact Us</a>
