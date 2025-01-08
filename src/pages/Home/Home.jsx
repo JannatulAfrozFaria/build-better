@@ -1,10 +1,11 @@
 import React from 'react';
 import Footer from '../shared/Footer/Footer';
+import Banner from './Banner';
 
 const Home = () => {
     return (
         <div className='h-[900px]'>
-            <h1>This is home</h1>
+            <Banner></Banner>
         </div>
     );
 };
