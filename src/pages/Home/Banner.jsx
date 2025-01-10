@@ -17,13 +17,13 @@ const Banner = () => {
             <h3>banner 2</h3>
           </div>
           <div>
-            <h3>banner 3</h3>
+            <h3>banner Content</h3>
           </div>
           <div>
-            <h3>banner 4</h3>
+            <h3>banner Content</h3>
           </div>
           <div>
-            <h3>banner 5</h3>
+            <h3>banner Content</h3>
           </div>
           <div>
             <h3>banner Content</h3>
