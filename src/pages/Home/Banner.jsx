@@ -26,7 +26,7 @@ const Banner = () => {
             <h3>banner 5</h3>
           </div>
           <div>
-            <h3>banner 6</h3>
+            <h3>banner Content</h3>
           </div>
         </Slider>
       );
