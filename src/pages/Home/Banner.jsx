@@ -11,10 +11,10 @@ const Banner = () => {
       return (
         <Slider {...settings}>
           <div>
-            <h3>banner 1</h3>
+            <h3>banner Content</h3>
           </div>
           <div>
-            <h3>banner 2</h3>
+            <h3>banner Content</h3>
           </div>
           <div>
             <h3>banner Content</h3>
