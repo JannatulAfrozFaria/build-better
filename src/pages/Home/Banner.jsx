@@ -14,13 +14,13 @@ const Banner = () => {
             <h3>banner Content 1</h3>
           </div>
           <div>
-            <h3>banner Content</h3>
+            <h3>banner Content  1</h3>
           </div>
           <div>
-            <h3>banner Content</h3>
+            <h3>banner Content  1</h3>
           </div>
           <div>
-            <h3>banner Content</h3>
+            <h3>banner Content </h3>
           </div>
           <div>
             <h3>banner Content</h3>
