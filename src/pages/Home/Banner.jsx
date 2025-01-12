@@ -1,5 +1,7 @@
-import React from "react";
-import Slider from "react-slick";
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 const Banner = () => {
     var settings = {
         dots: true,
@@ -9,26 +11,20 @@ const Banner = () => {
         slidesToScroll: 1,
       };
       return (
-        <Slider {...settings}>
-          <div>
-            <h3>banner Content 1</h3>
-          </div>
-          <div>
-            <h3>banner Content  1</h3>
-          </div>
-          <div>
-            <h3>banner Content  1</h3>
-          </div>
-          <div>
-            <h3>banner Content </h3>
-          </div>
-          <div>
-            <h3>banner Content</h3>
-          </div>
-          <div>
-            <h3>banner Content</h3>
-          </div>
-        </Slider>
+        <Carousel>
+        <div>
+            <img src="assets/1.jpeg" />
+            <p className="legend">Legend 1</p>
+        </div>
+        <div>
+            <img src="assets/2.jpeg" />
+            <p className="legend">Legend 2</p>
+        </div>
+        <div>
+            <img src="assets/3.jpeg" />
+            <p className="legend">Legend 3</p>
+        </div>
+    </Carousel>
       );
 };
 
