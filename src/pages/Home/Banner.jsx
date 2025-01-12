@@ -8,8 +8,9 @@ import cover3 from '../../../src/images/C3.jpg';
 import cover4 from '../../../src/images/C4.jpg';
 const Banner = () => {
       const bannerData = [
-        {title: 'The Foundation of Your Future', subTitle:"Premium Concrete Blocks Designed to Support and Elevate Your Vision.", image: {cover4}},
-        {title: 'Green Building Solutions for you', subTitle:'', image: {cover2}},
+        {title: "The Foundation of Your Future", subTitle:"Premium Concrete Blocks Designed to Support and Elevate Your Vision.", image: {cover4}},
+        {title: 'Green Building Solutions for you', subTitle:"Innovative Concrete Products Built for Excellence and Longevity.", image: {cover2}},
+        {title: "Building Strength, Block by Block", subTitle:"Durable, Reliable, and Sustainable Concrete Solutions for Every Project.", image: {cover3}},
       ]
       return (
         <Carousel>
