@@ -7,22 +7,29 @@ import cover2 from "../../../src/images/C2.jpg";
 import cover3 from "../../../src/images/C3.jpg";
 import cover4 from "../../../src/images/C4.jpg";
 import { Typewriter } from "react-simple-typewriter";
+import { useTypewriter ,Cursor } from "react-simple-typewriter";
 const Banner = () => {
   const bannerData = [
     {
-      title: "The Foundation of Your Future",
+      id:1,
+      staticTitle: "The Foundation of ",
+      dynamicTitle: ' Your Future',
       subTitle:
         "Premium Concrete Blocks Designed to Support and Elevate Your Vision.",
       image: { cover4 },
     },
     {
-      title: "Green Building Solutions for you",
+      id:2,
+      staticTitle: "Green Building Solutions ",
+      dynamicTitle: ' for you',
       subTitle:
         "Innovative Concrete Products Built for Excellence and Longevity.",
       image: { cover2 },
     },
     {
-      title: "Building Strength, Block by Block",
+      id:3,
+      staticTitle: "Building Strength, ",
+      dynamicTitle: ' Block by Block',
       subTitle:
         "Durable, Reliable, and Sustainable Concrete Solutions for Every Project.",
       image: { cover3 },
@@ -30,20 +37,22 @@ const Banner = () => {
   ];
   return (
     <Carousel>
-      <div
+      {bannerData.map(item=>
+        <div key={item.id}
         className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
         style={{
           backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('../../../src/images/C4.jpg')`,
         }}
       >
-        <h1 className="absolute top-2 left-3">
-          {/* Life is simple{' '} */}
+        <div className="absolute px-24 py-56 w-full text-left text-white">
+        <h1 className="text-2xl md:text-7xl">
+             The Foundation of  
           <span
             className="text-2xl md:text-7xl banner-title"
-            // style={{ color: 'red', fontWeight: 'bold' }}
+            style={{ color: 'red', fontWeight: 'bold' }}
           >
             <Typewriter
-              words={'Title'}
+              words={['Your Future']}
               loop={true}
               // loop={5}
               cursor
@@ -56,15 +65,18 @@ const Banner = () => {
             />
           </span>
         </h1>
+        </div>
+        
       </div>
-      <div className="h-[800px] mx-auto">
+      )}
+      {/* <div className="h-[800px] mx-auto">
         <img src={cover2} />
         <p className="">Legend 1</p>
       </div>
       <div className="h-[800px] mx-auto">
         <img src={cover3} />
         <p className="">Legend 1</p>
-      </div>
+      </div> */}
     </Carousel>
   );
 };
