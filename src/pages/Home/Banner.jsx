@@ -2,18 +2,12 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import {cover1} from '../../../public/images/C1.jpg';
 const Banner = () => {
-    var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      };
       return (
         <Carousel>
         <div>
-            <img src="assets/1.jpeg" />
+            <img src={cover1} />
             <p className="legend">Legend 1</p>
         </div>
         <div>
