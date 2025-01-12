@@ -8,6 +8,7 @@ import cover3 from "../../../src/images/C3.jpg";
 import cover4 from "../../../src/images/C4.jpg";
 import { Typewriter } from "react-simple-typewriter";
 import { useTypewriter ,Cursor } from "react-simple-typewriter";
+import Button from "../../Components/Button";
 const Banner = () => {
   const bannerData = [
     {
@@ -72,6 +73,7 @@ const Banner = () => {
           </span>
         </h1>
         <p className="text-xl text-gray-400"> {item.subTitle} </p>
+        <Button text={item.buttonText} link={item.buttonPath} ></Button>
         </div>
         
       </div>
