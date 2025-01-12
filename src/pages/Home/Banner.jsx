@@ -17,6 +17,8 @@ const Banner = () => {
       subTitle:
         "Premium Concrete Blocks Designed to Support and Elevate Your Vision.",
       image: { cover4 },
+      buttonText: 'About',
+      buttonPath: '/about'
     },
     {
       id:2,
@@ -25,6 +27,8 @@ const Banner = () => {
       subTitle:
         "Innovative Concrete Products Built for Excellence and Longevity.",
       image: { cover2 },
+      buttonText: 'Services',
+      buttonPath: '/services'
     },
     {
       id:3,
@@ -33,6 +37,8 @@ const Banner = () => {
       subTitle:
         "Durable, Reliable, and Sustainable Concrete Solutions for Every Project.",
       image: { cover3 },
+      buttonText: 'Contact Us',
+      buttonPath: '/Contact us'
     },
   ];
   return (
