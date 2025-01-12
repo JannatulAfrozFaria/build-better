@@ -65,6 +65,7 @@ const Banner = () => {
             />
           </span>
         </h1>
+        <p className="text-xl text-gray-400"> {item.subTitle} </p>
         </div>
         
       </div>
