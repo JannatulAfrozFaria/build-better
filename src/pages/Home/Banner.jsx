@@ -75,17 +75,8 @@ const Banner = () => {
         <p className="text-4xl text-gray-300 my-8"> {item.subTitle} </p>
         <Button text={item.buttonText} link={item.buttonPath} ></Button>
         </div>
-        
       </div>
       )}
-      {/* <div className="h-[800px] mx-auto">
-        <img src={cover2} />
-        <p className="">Legend 1</p>
-      </div>
-      <div className="h-[800px] mx-auto">
-        <img src={cover3} />
-        <p className="">Legend 1</p>
-      </div> */}
     </Carousel>
   );
 };
