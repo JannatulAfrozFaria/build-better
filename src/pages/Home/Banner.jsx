@@ -41,18 +41,18 @@ const Banner = () => {
         <div key={item.id}
         className="carousel-item relative w-full h-[50vh] md:h-[90vh] bg-no-repeat bg-cover"
         style={{
-          backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url('../../../src/images/C4.jpg')`,
+          backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${item.image})`,
         }}
       >
         <div className="absolute px-24 py-56 w-full text-left text-white">
         <h1 className="text-2xl md:text-7xl">
-             The Foundation of  
+             {item.staticTitle} 
           <span
             className="text-2xl md:text-7xl banner-title"
             style={{ color: 'red', fontWeight: 'bold' }}
           >
             <Typewriter
-              words={['Your Future']}
+              words={[`${item.dynamicTitle}`]}
               loop={true}
               // loop={5}
               cursor
