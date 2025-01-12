@@ -17,7 +17,7 @@ const Banner = () => {
       dynamicTitle: ' Your Future',
       subTitle:
         "Premium Concrete Blocks Designed to Support and Elevate Your Vision.",
-      image: { cover4 },
+      image:  cover4 ,
       buttonText: 'About',
       buttonPath: '/about'
     },
@@ -27,7 +27,7 @@ const Banner = () => {
       dynamicTitle: ' for you',
       subTitle:
         "Innovative Concrete Products Built for Excellence and Longevity.",
-      image: { cover2 },
+      image:  cover2 ,
       buttonText: 'Services',
       buttonPath: '/services'
     },
@@ -37,7 +37,7 @@ const Banner = () => {
       dynamicTitle: ' Block by Block',
       subTitle:
         "Durable, Reliable, and Sustainable Concrete Solutions for Every Project.",
-      image: { cover3 },
+      image: cover3 ,
       buttonText: 'Contact Us',
       buttonPath: '/Contact us'
     },
@@ -51,12 +51,12 @@ const Banner = () => {
           backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${item.image})`,
         }}
       >
-        <div className="absolute px-24 py-56 w-full text-left text-white">
+        <div className="absolute bottom-40 left-28 w-full text-left text-white">
         <h1 className="text-2xl md:text-7xl">
              {item.staticTitle} 
           <span
             className="text-2xl md:text-7xl banner-title"
-            style={{ color: 'red', fontWeight: 'bold' }}
+            style={{ color: 'rgb(126, 235, 92)', fontWeight: 'bold' }}
           >
             <Typewriter
               words={[`${item.dynamicTitle}`]}
@@ -72,7 +72,7 @@ const Banner = () => {
             />
           </span>
         </h1>
-        <p className="text-xl text-gray-400"> {item.subTitle} </p>
+        <p className="text-4xl text-gray-300 my-8"> {item.subTitle} </p>
         <Button text={item.buttonText} link={item.buttonPath} ></Button>
         </div>
         
