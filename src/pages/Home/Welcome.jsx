@@ -3,8 +3,17 @@ import React from 'react';
 const Welcome = () => {
     const services = [
         {id:1,
-         service: 'Construction'
-        }
+         service: 'Construction',
+         image: ''
+        },
+        {id:2,
+         service: 'Manufacturing',
+         image: ''
+        },
+        {id:3,
+         service: 'Service & Maintenance',
+         image: ''
+        },
     ]
     return (
         <div>
