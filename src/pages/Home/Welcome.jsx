@@ -20,7 +20,13 @@ const Welcome = () => {
             <h1>Welcome to
            Build Better Limited.</h1>
             <p>A legacy of almost 4 decades, we stepped into manufacturing building products in hopes to deliver materials that will be a game-changer in the construction sector. Since 2014, our building products have earned a much-deserved reputation for being one of the best in the country for being safer, stronger, and more durable than others in the industry.</p>
-            <div className="flex gap-6 items-center"></div>
+            <div className="flex gap-6 items-center">
+                {services.map((item)=>(
+                    <div key={item.id}>
+                        <h2 className='font-medium'>{item.service} </h2>
+                    </div>
+                ) )}
+            </div>
         </div>
     );
 };
