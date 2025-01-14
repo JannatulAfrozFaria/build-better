@@ -2,9 +2,9 @@ import React from "react";
 
 const Welcome = () => {
   const services = [
-    { id: 1, service: "Construction", image: "" },
-    { id: 2, service: "Manufacturing", image: "" },
-    { id: 3, service: "Service & Maintenance", image: "" },
+    { id: 1, service: "Construction", image: "https://i.ibb.co/tCTMGvx/cons.jpg" },
+    { id: 2, service: "Manufacturing", image: "https://i.ibb.co/cQt2kHL/manu.jpg" },
+    { id: 3, service: "Service & Maintenance", image: "https://i.ibb.co/wWhGgQq/serv.jpg" },
   ];
   return (
     <div>
@@ -22,7 +22,7 @@ const Welcome = () => {
             <div className="card card-compact bg-base-100 w-96 shadow-xl">
               <figure>
                 <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  src={item.image}
                   alt="Shoes"
                 />
               </figure>
