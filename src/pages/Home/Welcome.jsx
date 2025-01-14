@@ -8,9 +8,9 @@ const Welcome = () => {
   ];
   return (
     <div className="w-[90%] mx-auto mb-8">
-      <div className="text-center w-1/2 mx-auto">
-      <h1 className="font-bold text-2xl md:text-4xl">Welcome to Build Better Limited</h1>
-      <p className="my-4 text-gray-500">
+      <div className="text-center w-full md:w-1/2 mx-auto">
+      <h1 className="font-bold text-xl md:text-4xl">Welcome to Build Better Limited</h1>
+      <p className="text-xs md:text-base my-4 text-gray-500">
         A legacy of almost 4 decades, we stepped into manufacturing building
         products in hopes to deliver materials that will be a game-changer in
         the construction sector. Since 2014, our building products have earned a
