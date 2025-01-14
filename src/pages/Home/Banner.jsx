@@ -51,7 +51,7 @@ const Banner = () => {
           backgroundImage: `linear-gradient(45deg,rgba(7,25,82,0.7),rgba(0,0,0,0.3)), url(${item.image})`,
         }}
       >
-        <div className="absolute bottom-40 left-28 w-full text-left text-white">
+        <div className="absolute bottom-10 md:bottom-40 left-28 w-full text-left text-white">
         <h1 className="text-2xl md:text-7xl">
              {item.staticTitle} 
           <span
