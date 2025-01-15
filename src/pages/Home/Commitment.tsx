@@ -1,12 +1,42 @@
 import { title } from 'process';
 import React from 'react';
 import reliability from "../../../src/images/reliable.png";
+import safety from "../../../src/images/safety.png";
+import quality from "../../../src/images/quality.png";
+import strength from "../../../src/images/strength.png";
+import service from "../../../src/images/Service.png";
+import money from "../../../src/images/money.png";
+import eco from "../../../src/images/eco.png";
 const Commitment = () => {
     const excellences = [
         {id:1,
          title: 'Reliability',
          icon: reliability
         },
+        {id:2,
+         title: 'Safety',
+         icon: safety
+        },
+        {id:3,
+         title: 'Unparalleled Quality',
+         icon: quality
+        },
+        {id:4,
+         title: 'Strength',
+         icon: strength
+        },
+        {id:5,
+         title: 'Extraordinary Service',
+         icon: service
+        },
+        {id:6,
+         title: 'ReliaGreat Value for Moneybility',
+         icon: money
+        },
+        {id:7,
+         title: 'Eco-friendly Building Solutions',
+         icon: eco
+        }
     ]
     return (
         <div className='bg-[#e8e4c1]  p-16'>
