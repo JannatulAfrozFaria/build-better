@@ -42,7 +42,7 @@ const Commitment = () => {
         <div className='bg-[#e8e4c1]  p-16 mb-16'>
             <h1 className='text-center text-3xl font-semibold'>Committed to Excellence</h1>
             <p className='text-gray-600 text-lg w-3/4 mx-auto text-center my-6 ' >The significance of choosing the right products for construction is great. No compromise should be made in this case if we want a safe future. And we unfailingly work towards creating that safe future for you. With us, you will find:</p>
-            <div className='w-[70%] mx-auto grid grid-cols-4 gap-6 items-center '>
+            <div className='w-[70%] mx-auto grid grid-cols-4 gap-8 items-center '>
                 {excellences.map((item)=> (
                     <div key={item.id} className="flex gap-4 items-center">
                         <div> <img className='w-[220px]' src={item.icon} alt="" /> </div>
