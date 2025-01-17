@@ -36,6 +36,13 @@ const Benifits = () => {
   return (
     <div>
       <h1>Benifits of Concrete Block</h1>
+      <div>
+        {Benifits.map((item)=>(
+            <div key={item.id}>
+                <h1 className="bg-black text-white p-4" > {item.title} </h1>
+            </div>
+        ))}
+      </div>
     </div>
   );
 };
