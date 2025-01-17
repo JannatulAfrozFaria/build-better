@@ -30,7 +30,7 @@ const Benifits = () => {
       id: 5,
       title: "Design Flexibility",
       decription:
-        "In the production of bricks, massive land and resources are wasted which consequently drives up construction cost. In such a case, manufacturing and utilizing concrete blocks significantly reduces cost and saves natural resources. Each block can save approximately 25% more natural resources than a brick.",
+        "Another advantage of using concrete blocks is its flexibility as a building material. Concrete blocks can be used to build any type of housing feature, columns, archways and other intricate designs. The construction material caters to every need and home requirement.",
     },
   ];
   return (
