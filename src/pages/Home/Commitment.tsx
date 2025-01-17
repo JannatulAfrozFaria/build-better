@@ -45,7 +45,7 @@ const Commitment = () => {
             <div className='w-[70%] mx-auto grid grid-cols-4 gap-8 items-center '>
                 {excellences.map((item)=> (
                     <div key={item.id} className="flex gap-4 items-center">
-                        <div> <img className='w-[220px]' src={item.icon} alt="" /> </div>
+                        <div> <img className='w-[200px]' src={item.icon} alt="" /> </div>
                         <div> {item.title} </div>
                     </div>
                 ))}
