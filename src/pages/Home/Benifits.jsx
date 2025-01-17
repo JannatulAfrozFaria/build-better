@@ -9,22 +9,22 @@ const Benifits = () => {
         "In the production of bricks, massive land and resources are wasted which consequently drives up construction cost. In such a case, manufacturing and utilizing concrete blocks significantly reduces cost and saves natural resources. Each block can save approximately 25% more natural resources than a brick.",
     },
     {
-      id: 1,
-      title: "Reduction inConstruction Cost",
+      id: 2,
+      title: "Reduction in Manitenece Cost",
       decription:
-        "In the production of bricks, massive land and resources are wasted which consequently drives up construction cost. In such a case, manufacturing and utilizing concrete blocks significantly reduces cost and saves natural resources. Each block can save approximately 25% more natural resources than a brick.",
+        "Concrete blocks offer sustainable advantages over other structures as it requires minimal maintenance and strengthens over time. An example would be of termites and moisture, which can undermine other building materials through rust or rot; has no weakening effect on concrete.",
     },
     {
       id: 3,
       title: "Longevity and Durability",
       decription:
-        "In the production of bricks, massive land and resources are wasted which consequently drives up construction cost. In such a case, manufacturing and utilizing concrete blocks significantly reduces cost and saves natural resources. Each block can save approximately 25% more natural resources than a brick.",
+        "Concrete is one of the most durable materials on Earth and unquestionably the most practical home building material. Concrete homes are far less likely to suffer damage in the event of a fire and earthquake and can be reinforced to protect against high winds or earth tremors. If damage does occur, the structural integrity of the home typically remains intact, allowing for easier rebuilding. Your home retains its curb appeal and its value beautifully.",
     },
     {
       id: 4,
       title: "Energy Saving Properties",
       decription:
-        "In the production of bricks, massive land and resources are wasted which consequently drives up construction cost. In such a case, manufacturing and utilizing concrete blocks significantly reduces cost and saves natural resources. Each block can save approximately 25% more natural resources than a brick.",
+        "The release of energy from simultaneous heating and cooling from structures lead 80% or more of the greenhouse gases to be generated. This is however, not the case with concrete products as insulated wall systems provide high R-value and thermal mass with low air infiltration providing superior thermal efficiency and optimal energy performance over the long life of the building. Additionally, heating and cooling bills can be lowered by 25% as the insulated concrete walls are not subject to large daily temperature fluctuations. Heating, ventilating and air-conditioning can also be designed with smaller-capacity equipment for additional savings.",
     },
     {
       id: 5,
