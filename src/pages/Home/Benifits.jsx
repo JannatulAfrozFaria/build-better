@@ -39,7 +39,10 @@ const Benifits = () => {
       <div>
         {Benifits.map((item)=>(
             <div key={item.id}>
+                <div className="flex justify-between text-white">
                 <h1 className="bg-black text-white p-4" > {item.title} </h1>
+                <button> + </button>
+                </div>
             </div>
         ))}
       </div>
