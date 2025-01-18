@@ -1,6 +1,7 @@
 import React from "react";
 import { FiPlus } from "react-icons/fi";
 import { FaMinus } from "react-icons/fa6";
+import { useState } from "react";
 const Benifits = () => {
   const [activeFaq, setActiveFaq] = useState(null); // Track active FAQ ID
 
@@ -10,7 +11,7 @@ const Benifits = () => {
   const Benifits = [
     {
       id: 1,
-      title: "Reduction inConstruction Cost",
+      title: "Reduction in Construction Cost",
       decription:
         "In the production of bricks, massive land and resources are wasted which consequently drives up construction cost. In such a case, manufacturing and utilizing concrete blocks significantly reduces cost and saves natural resources. Each block can save approximately 25% more natural resources than a brick.",
     },
@@ -40,8 +41,8 @@ const Benifits = () => {
     },
   ];
   return (
-    <div>
-      <h1>Benifits of Concrete Block</h1>
+    <div className="w-[90%] mx-auto ">
+      <h1 className=' text-3xl font-semibold my-6'>Benifits of Concrete Block</h1>
       <div>
         {/* {Benifits.map((item)=>(
             <div key={item.id}>
@@ -56,11 +57,11 @@ const Benifits = () => {
             <div className="flex justify-between items-center">
               <h1 className="text-lg font-semibold text-white">{item.title}</h1>
               <button onClick={() => toggleFaq(item.id)}>
-                {activeFaq === item.id ? <FiPlus /> : <FaMinus />}
+                {activeFaq === item.id ? <FaMinus className="text-white text-xl" />  : <FiPlus className="text-white text-xl" />}
               </button>
             </div>
             <p className={`${activeFaq === item.id ? "block" : "hidden"} text-[#c8c8c8] font-medium py-2`}>
-              {item.answer}
+              {item.decription}
             </p>
           </div>
         ))}
