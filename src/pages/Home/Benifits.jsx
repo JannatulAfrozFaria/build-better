@@ -1,6 +1,12 @@
 import React from "react";
-
+import { FiPlus } from "react-icons/fi";
+import { FaMinus } from "react-icons/fa6";
 const Benifits = () => {
+  const [activeFaq, setActiveFaq] = useState(null); // Track active FAQ ID
+
+  const toggleFaq = (id) => {
+    setActiveFaq(activeFaq === id ? null : id); // Toggle the FAQ
+  };
   const Benifits = [
     {
       id: 1,
@@ -37,13 +43,26 @@ const Benifits = () => {
     <div>
       <h1>Benifits of Concrete Block</h1>
       <div>
-        {Benifits.map((item)=>(
+        {/* {Benifits.map((item)=>(
             <div key={item.id}>
                 <div className="flex justify-between text-white">
                 <h1 className="bg-black text-white p-4" > {item.title} </h1>
                 <button> + </button>
                 </div>
             </div>
+        ))} */}
+        {Benifits.map((item) => (
+          <div key={item.id} className="bg-[#101010] rounded-3xl border-2 border-[#3e3e3e] p-8 w-full mb-6">
+            <div className="flex justify-between items-center">
+              <h1 className="text-lg font-semibold text-white">{item.title}</h1>
+              <button onClick={() => toggleFaq(item.id)}>
+                {activeFaq === item.id ? <FiPlus /> : <FaMinus />}
+              </button>
+            </div>
+            <p className={`${activeFaq === item.id ? "block" : "hidden"} text-[#c8c8c8] font-medium py-2`}>
+              {item.answer}
+            </p>
+          </div>
         ))}
       </div>
     </div>
