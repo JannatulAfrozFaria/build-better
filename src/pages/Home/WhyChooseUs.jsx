@@ -8,10 +8,10 @@ const WhyChooseUs = () => {
         {id:4, number:4, title: 'Expert Team', details: 'PDL outstanding team is made up of young, ambitious, quality and capable staff numbers' },
     ]
     const glances = [
-        {id:1, number:1, title: 'Year of Incorporation', details: 'As derived from its operations and activities involving foreign trade, economic and technology cooperation, PDL’s sterling reputation for enabling healthy economic profit and ensuring quality work has gained it access to credit, capital and loan support from numerous notable financial institutions.' },
-        {id:2, number:2, title: 'Nature of Business' },
-        {id:3, number:3, title: 'Corporate Headquarter', details: 'PDL’s business staff, spread all over the world, has extensive channels of information acquisition and the capacity for fast information feedback and processing.' },
-        {id:4, number:4, title: 'Total number of projects completed', details: 'PDL outstanding team is made up of young, ambitious, quality and capable staff numbers' },
+        {id:1, number:1, title: 'Year of Incorporation', details: '1983' },
+        {id:2, number:2, title: 'Nature of Business', details: 'Construction & Engineering Services' },
+        {id:3, number:3, title: 'Corporate Headquarter', details: 'PRAN-RFL Center 105 Middle Badda, Dhaka-1212, Bangladesh' },
+        {id:4, number:4, title: 'Total number of projects completed', details: '300+' },
     ]
     return (
         <div className='bg-green-900 text-neutral-content mt-12 mb-48 '>
