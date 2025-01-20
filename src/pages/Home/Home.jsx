@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Welcome from './Welcome';
 import Commitment from './Commitment';
 import Benifits from './Benifits';
+import WhyChooseUs from './WhyChooseUs';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Welcome />
             <Commitment />
             <Benifits />
+            <WhyChooseUs />
         </div>
     );
 };
