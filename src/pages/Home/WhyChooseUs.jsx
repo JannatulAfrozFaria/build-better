@@ -8,15 +8,15 @@ const WhyChooseUs = () => {
         {id:4, number:4, title: 'Expert Team', details: 'PDL outstanding team is made up of young, ambitious, quality and capable staff numbers' },
     ]
     return (
-        <div className='bg-green-900 text-neutral-content my-12'>
-            <div className='w-[90%] mx-auto pt-24 pb-36'>
+        <div className='bg-green-900 text-neutral-content mt-12 mb-48 '>
+            <div className='w-[90%] mx-auto pt-24 pb-48'>
             <h1 className='text-4xl font-bold text-center' >Why Choose us</h1>
             <hr className='border-2 border-gray-300 w-1/3  mx-auto my-6' />
-            <div className="grid grid-cols-2 gap-12">
+            <div className="grid grid-cols-2 gap-12 relative">
                 {USP.map((item)=>(
                     <div key={item.id} className='flex items-start gap-6' >
-                        <div className='border-2 border-gray-300 rounded-full py-2 px-5 text-3xl'> 
-                            <div className='bg-green-600 p-3 rounded-full'>
+                        <div className='border-2 border-green-500 rounded-full p-2 text-3xl bg-green-600'> 
+                            <div className='bg-green-500 py-2 px-5 rounded-full font-semibold'>
                                 {item.number}
                             </div> 
                         </div>
@@ -26,6 +26,9 @@ const WhyChooseUs = () => {
                         </div>
                     </div>
                 ))}
+                <div className="absolute -bottom-60 bg-gray-300 p-16 w-full">
+                        <h1 className='text-green-800 text-center text-3xl'>Build Better At A Glance</h1>
+                </div>
             </div>
             </div>
         </div>
