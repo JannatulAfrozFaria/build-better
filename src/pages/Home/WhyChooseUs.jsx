@@ -11,6 +11,11 @@ const WhyChooseUs = () => {
         <div className='bg-green-900 text-neutral-content'>
             <h1>Why Choose us</h1>
             <hr />
+            <div className="grid grid-cols-2 gap-12">
+                {USP.map((item)=>(
+                    <div key={item.id} ></div>
+                ))}
+            </div>
         </div>
     );
 };
