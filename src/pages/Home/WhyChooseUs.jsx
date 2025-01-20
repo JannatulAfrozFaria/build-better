@@ -34,7 +34,14 @@ const WhyChooseUs = () => {
                 ))}
                 <div className="absolute -bottom-60 bg-gray-300 p-16 w-full">
                         <h1 className='text-green-800 text-center text-3xl'>Build Better At A Glance</h1>
-                        <div className="grid grid-cols-4-gap-6"></div>
+                        <div className="grid grid-cols-4-gap-6">
+                            {glances.map((item)=>(
+                                <div>
+                                    <h1> {item.title} </h1>
+                                    <p>{item.details} </p>
+                                </div>
+                            ))}
+                        </div>
                 </div>
             </div>
             </div>
