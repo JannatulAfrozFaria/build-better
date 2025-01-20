@@ -2,10 +2,10 @@ import React from 'react';
 
 const WhyChooseUs = () => {
     const USP = [
-        {id:1, number:1, title: 'Financial Capability', details: 'As derived from its operations and activities involving foreign trade, economic and technology cooperation, PDL’s sterling reputation for enabling healthy economic profit and ensuring quality work has gained it access to credit, capital and loan support from numerous notable financial institutions.' },
-        {id:2, number:2, title: 'Resource Integration' , details: 'PDL enjoys constant and stable business and working relationships with its strategic partners for design, construction and equipment supply.'},
-        {id:3, number:3, title: 'Information Advantage', details: 'PDL’s business staff, spread all over the world, has extensive channels of information acquisition and the capacity for fast information feedback and processing.' },
-        {id:4, number:4, title: 'Expert Team', details: 'PDL outstanding team is made up of young, ambitious, quality and capable staff numbers' },
+        {id:1, number:1, title: 'Financial Capability', details: 'As derived from its operations and activities involving foreign trade, economic and technology cooperation, Build Better’s sterling reputation for enabling healthy economic profit and ensuring quality work has gained it access to credit, capital and loan support from numerous notable financial institutions.' },
+        {id:2, number:2, title: 'Resource Integration' , details: 'Build Better enjoys constant and stable business and working relationships with its strategic partners for design, construction and equipment supply.'},
+        {id:3, number:3, title: 'Information Advantage', details: 'Build Better’s business staff, spread all over the world, has extensive channels of information acquisition and the capacity for fast information feedback and processing.' },
+        {id:4, number:4, title: 'Expert Team', details: 'Build Better outstanding team is made up of young, ambitious, quality and capable staff numbers' },
     ]
     const glances = [
         {id:1, number:1, title: 'Year of Incorporation', details: '1983' },
